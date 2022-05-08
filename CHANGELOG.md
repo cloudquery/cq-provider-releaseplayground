@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.0.3](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.0.2...v0.0.3) (2022-05-08)
+
+
+### Features
+
+* Add new feature ([57bae0e](https://github.com/cloudquery/cq-provider-releaseplayground/commit/57bae0e8f92bc31a833a56298b9e5ef9ec374c81))
+
 ### [0.0.2](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.0.1...v0.0.2) (2022-05-08)
 
 
