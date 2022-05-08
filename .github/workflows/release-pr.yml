@@ -13,7 +13,7 @@ jobs:
         id: release
         with:
           release-type: go
-          package-name: cq-provider-test
+          package-name: cq-provider-releaseplayground
           token: ${{ secrets.GH_CQ_BOT }}
           pull-request-title-pattern: "chore${scope}: Release${component} ${version}"
           bump-minor-pre-major: true

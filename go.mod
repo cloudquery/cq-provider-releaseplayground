@@ -1,4 +1,4 @@
-module github.com/cloudquery/cq-provider-test
+module github.com/cloudquery/cq-provider-releaseplayground
 
 go 1.17
 
@@ -70,5 +70,3 @@ require (
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
-
-//replace github.com/cloudquery/cq-provider-sdk v0.7.0-alpha.0.20220119154925-739f3acc9e08 => ../cq-provider-sdk

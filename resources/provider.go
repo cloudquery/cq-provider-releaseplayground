@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudquery/cq-provider-test/client"
+	"github.com/cloudquery/cq-provider-releaseplayground/client"
 
 	"github.com/cloudquery/cq-provider-sdk/provider"
 	"github.com/cloudquery/cq-provider-sdk/provider/schema"
