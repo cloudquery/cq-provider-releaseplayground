@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.0.5](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.0.4...v0.0.5) (2022-05-09)
+
+
+### Bug Fixes
+
+* Some bug ([d9f17f4](https://github.com/cloudquery/cq-provider-releaseplayground/commit/d9f17f4e9cda36b9890a561bf3dfb0234bf84f9e))
+
 ### [0.0.4](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.0.4-rc2...v0.0.4) (2022-05-09)
 
 
