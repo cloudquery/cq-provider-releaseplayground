@@ -12,7 +12,6 @@ jobs:
         uses: booxmedialtd/ws-action-parse-semver@4f8784f912407f85ba53b686fe2cf85d4ee11a20
         with:
           input_string: ${{github.ref_name}}
-          version_extractor_regex: '\/v(.*)$'
       - name: Checkout
         uses: actions/checkout@v2
         with:
