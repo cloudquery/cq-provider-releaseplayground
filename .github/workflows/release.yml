@@ -2,11 +2,17 @@ name: release
 on:
   push:
     tags:
-      - "*"
+      - v*.*.*
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - name: Parse semver string
+        id: semver_parser
+        uses: booxmedialtd/ws-action-parse-semver@4f8784f912407f85ba53b686fe2cf85d4ee11a20
+        with:
+          input_string: ${{github.ref_name}}
+          version_extractor_regex: '\/v(.*)$'
       - name: Checkout
         uses: actions/checkout@v2
         with:
@@ -20,10 +26,19 @@ jobs:
         with:
           version: latest
           args: release --rm-dist --skip-validate --skip-publish --skip-sign
-      - name: Run GoReleaser
+      - name: Run GoReleaser Release
         uses: goreleaser/goreleaser-action@v2
+        if: steps.semver_parser.outputs.prerelease == ''
         with:
           version: latest
-          args: release --rm-dist
+          args: release --rm-dist --config .goreleaser.yaml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run GoReleaser PreRelease
+        uses: goreleaser/goreleaser-action@v2
+        if: steps.semver_parser.outputs.prerelease != ''
+        with:
+          version: latest
+          args: release --rm-dist --config .goreleaser.prerelease.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
