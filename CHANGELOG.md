@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.6.0](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.0.6-rc1...v0.6.0) (2022-06-01)
+
+
+### Bug Fixes
+
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.10.1 ([#18](https://github.com/cloudquery/cq-provider-releaseplayground/issues/18)) ([79ba1b8](https://github.com/cloudquery/cq-provider-releaseplayground/commit/79ba1b81d18a5a492708c8af3e0d03b867cabd28))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.10.5 ([#19](https://github.com/cloudquery/cq-provider-releaseplayground/issues/19)) ([eec6614](https://github.com/cloudquery/cq-provider-releaseplayground/commit/eec6614e0377c81b9e0a3c67066306726ed03cb3))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.10.6 ([#20](https://github.com/cloudquery/cq-provider-releaseplayground/issues/20)) ([97b9590](https://github.com/cloudquery/cq-provider-releaseplayground/commit/97b9590d09dd952a8443c56232f211e75e20e517))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.9.4 ([#13](https://github.com/cloudquery/cq-provider-releaseplayground/issues/13)) ([60bdc1c](https://github.com/cloudquery/cq-provider-releaseplayground/commit/60bdc1c50fcb9517603f2c21fa5fe6d57918cfcc))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.9.5 ([#15](https://github.com/cloudquery/cq-provider-releaseplayground/issues/15)) ([caaa6a2](https://github.com/cloudquery/cq-provider-releaseplayground/commit/caaa6a26cac84a1811dbc2f4faf19186b2b50ac7))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.9.5 ([#17](https://github.com/cloudquery/cq-provider-releaseplayground/issues/17)) ([265ac6a](https://github.com/cloudquery/cq-provider-releaseplayground/commit/265ac6a6f7d382061ecb9e29b091d7e3b2d96b4c))
+
+
+### Miscellaneous Chores
+
+* Release 0.6.0 ([388c812](https://github.com/cloudquery/cq-provider-releaseplayground/commit/388c812f2988de332c7c74f4b7d06af5e1686582))
+
 ### [0.0.6-rc1](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.0.5...v0.0.6-rc1) (2022-05-09)
 
 
