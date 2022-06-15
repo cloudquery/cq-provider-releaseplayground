@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.6](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.6.5...v0.6.6) (2022-06-15)
+
+
+### Bug Fixes
+
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.11.2 ([#34](https://github.com/cloudquery/cq-provider-releaseplayground/issues/34)) ([3d2318c](https://github.com/cloudquery/cq-provider-releaseplayground/commit/3d2318cebfe646fe955889368d0465251f89fd75))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.11.3 ([#36](https://github.com/cloudquery/cq-provider-releaseplayground/issues/36)) ([bda8bed](https://github.com/cloudquery/cq-provider-releaseplayground/commit/bda8beda3ccb734e992e48499b323a2eb5baf68d))
+
 ## [0.6.5](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.6.4...v0.6.5) (2022-06-14)
 
 
