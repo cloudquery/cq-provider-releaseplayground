@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.6.16](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.6.15...v0.6.16) (2022-07-04)
+
+
+### Bug Fixes
+
+* **deps:** Update actions/checkout action to v3 ([#58](https://github.com/cloudquery/cq-provider-releaseplayground/issues/58)) ([7d0b8d1](https://github.com/cloudquery/cq-provider-releaseplayground/commit/7d0b8d1179acea9d09349bd43847424b18bd868e))
+* **deps:** Update actions/setup-go action to v3 ([#59](https://github.com/cloudquery/cq-provider-releaseplayground/issues/59)) ([56a6189](https://github.com/cloudquery/cq-provider-releaseplayground/commit/56a6189bedda6dbbf1bc41bfe1a6ab5399d9cd4d))
+* **deps:** Update booxmedialtd/ws-action-parse-semver digest to 966a265 ([#55](https://github.com/cloudquery/cq-provider-releaseplayground/issues/55)) ([47eb6d8](https://github.com/cloudquery/cq-provider-releaseplayground/commit/47eb6d8f3e31d94c5f15c3b2acdc186c80bde2aa))
+* **deps:** Update goreleaser/goreleaser-action action to v3 ([#60](https://github.com/cloudquery/cq-provider-releaseplayground/issues/60)) ([9f88d78](https://github.com/cloudquery/cq-provider-releaseplayground/commit/9f88d78e1fdfb3295ef2bdc2eeb8caf268473a6b))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.13.3 ([#62](https://github.com/cloudquery/cq-provider-releaseplayground/issues/62)) ([6c07c79](https://github.com/cloudquery/cq-provider-releaseplayground/commit/6c07c7907a02f24f2f95490145084895151ff76e))
+* **deps:** Update renovatebot/github-action action to v32.105.0 ([#57](https://github.com/cloudquery/cq-provider-releaseplayground/issues/57)) ([c085f16](https://github.com/cloudquery/cq-provider-releaseplayground/commit/c085f16555ba000a414fc50bc484f815977e43b4))
+* **deps:** Update tubone24/update_release digest to 3361270 ([#56](https://github.com/cloudquery/cq-provider-releaseplayground/issues/56)) ([825299f](https://github.com/cloudquery/cq-provider-releaseplayground/commit/825299f474d06729f4283b6cc3a3494102d2f4fa))
+
 ## [0.6.15](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.6.14...v0.6.15) (2022-07-03)
 
 
