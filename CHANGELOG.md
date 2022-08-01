@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.6.17](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.6.16...v0.6.17) (2022-08-01)
+
+
+### Bug Fixes
+
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.13.4 ([#63](https://github.com/cloudquery/cq-provider-releaseplayground/issues/63)) ([a366009](https://github.com/cloudquery/cq-provider-releaseplayground/commit/a3660097b3dbb607fcd912347067a2954bf20c33))
+* **deps:** Update module github.com/cloudquery/cq-provider-sdk to v0.13.5 ([#65](https://github.com/cloudquery/cq-provider-releaseplayground/issues/65)) ([9a2e10a](https://github.com/cloudquery/cq-provider-releaseplayground/commit/9a2e10a8e21305fe25250290dfe55d8c3ec545dc))
+* **deps:** Update module github.com/hashicorp/go-hclog to v1.2.2 ([#69](https://github.com/cloudquery/cq-provider-releaseplayground/issues/69)) ([97e9506](https://github.com/cloudquery/cq-provider-releaseplayground/commit/97e95065cf332f0b13b803c7ddb1a1c0d4488a37))
+
 ## [0.6.16](https://github.com/cloudquery/cq-provider-releaseplayground/compare/v0.6.15...v0.6.16) (2022-07-04)
 
 
