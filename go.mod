@@ -1,6 +1,6 @@
 module github.com/cloudquery/cq-provider-releaseplayground
 
-go 1.17
+go 1.19
 
 require (
 	github.com/cloudquery/cq-provider-sdk v0.13.5
